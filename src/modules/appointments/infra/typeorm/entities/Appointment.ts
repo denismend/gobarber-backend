@@ -8,7 +8,7 @@ import {
   JoinColumn,
 } from 'typeorm';
 
-import User from '../../users/entities/Users';
+import User from '@modules/users/infra/typeorm/entities/Users';
 
 /**
  * Um para Um ( OneToOne )
