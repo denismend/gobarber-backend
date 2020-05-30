@@ -48,6 +48,8 @@ class ListProviderDayAvailability {
       (_, index) => index + hourStart,
     );
 
+    console.log(appointments);
+
     const currentDate = new Date(Date.now());
 
     const availability = eachHourArray.map(hour => {
