@@ -45,8 +45,6 @@ class ListProviderMonthAvaliability {
       (_, index) => index + 1,
     );
 
-    console.log(eachDayArray);
-
     const availability = eachDayArray.map(day => {
       const appoitmentsInDay = appointments.filter(appointment => {
         return getDate(appointment.date) === day;
